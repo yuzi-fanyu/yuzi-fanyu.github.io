@@ -10,6 +10,7 @@
       <!-- Css -->
       <link href="../css/bootstrap.css" rel="stylesheet">
       <link href="../css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
    </head>
    <body>
       <nav class="navbar navbar-default color-fill navbar-fixed-top">
@@ -38,34 +39,159 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <p class="about-h1">
-                     Braindless
+                  <p class="about-h1" style="font-weight: bold; text-decoration: underline;">
+                     BRAINLESS
                   </p>
                </div>
             </div>
             <br>
             <div class="row margin-top-45">
                <div class="col-md-12">
-                  <p class="about-h">Overview</p>
-                  <p class="about-p">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="brainless/1.mp4?v=123456" type="video/mp4">
+                  </video>
+               </div>
+            </div>
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
                      Brainless Thinking is my graduation design project that explores the loss of independent thought in today's hyper-digitalized society. Triggered by the pandemic and accelerated by social media culture, it reflects on how public opinion is increasingly shaped by algorithms, trending content, and the urge to conform — leading to passive consumption and a diluted sense of self.
                   </p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-45" src="brainless/2.jpg">
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-3">
                   <p class="about-h">Concept</p>
-                  <p class="about-p">
+               </div>
+               <div class="col-md-9">
+                  <p class="about-p" style="text-align: justify">
                      In the era of endless scrolling and instant gratification, thinking has become outsourced. We "like," we share, we echo — but do we think? This project critiques how numerical authority (likes, shares, comments) and algorithmic curation reduce complex thought to simplified reactions. Using visual storytelling, it questions the illusion of freedom in digital spaces and asks: Are we forming opinions, or just following them?
                   </p>
+               </div>
+            </div>
+            <div class="row margin-top-30">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="brainless/carousel/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/3.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/4.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/5.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/6.jpg" alt="6" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/7.jpg" alt="7" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel/8.jpg" alt="8" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+               <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged image">
+            </div>
+            <div class="row margin-top-35">
+               <div class="col-md-3">
                   <p class="about-h">Visual Language</p>
-                  <p class="about-p">
+               </div>
+               <div class="col-md-9">
+                  <p class="about-p" style="text-align: justify">
                      The design combines abstract 3D modeling with glitch aesthetics to create a visually rich metaphor for cognitive overload. Symbolic elements like pixelated brains, melting gashapon capsules, and "wisdom fruits" wrapped in identical shells represent the collapse of individuality in a world driven by visibility. Tools like Blender, C4D, TouchDesigner, and Processing were used to simulate virtual spaces where chaos feels deceptively curated.
                   </p>
-                  <p class="about-h">Exhibition & Media</p>
-                  <p class="about-p">
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-00" src="brainless/3.jpg">
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="brainless/carousel2/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/3.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/4.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/5.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/6.jpg" alt="6" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/7.jpg" alt="7" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/8.jpg" alt="8" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/9.jpg" alt="9" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/10.jpg" alt="10" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/14.jpg" alt="14" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/15.jpg" alt="15" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/16.jpg" alt="16" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel2/17.jpg" alt="17" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-3">
+                  <p class="about-h">Book Design</p>
+               </div>
+               <div class="col-md-9">
+                  <p class="about-p" style="text-align: justify">
+                     This book, themed "Brainless Thinking", adopts a 20×20 cm square accordion-fold format, integrating text and visual elements to create a reading experience that balances concept and aesthetics. The cover features an abstract representation of a "fruit of wisdom," symbolically processed and Gaussian-blurred to form a red focal point of divergent thinking. The inner pages are printed on high-quality ultra-white specialty paper, with carefully arranged text and vibrant visuals to enhance the expression of information in a two-dimensional space. The accordion binding allows the book to fully unfold, with long strip pages spread across the center, enriching spatial layers and display dynamics—an interdisciplinary exploration of image, text, and book structure.
+                  </p>
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-00" src="brainless/4.jpeg">
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="brainless/carousel3/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/3.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/4.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/5.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/6.jpg" alt="6" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/3.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/4.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/5.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="brainless/carousel3/6.jpg" alt="6" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-3">
+                  <p class="about-h">Exhibitions</p>
+               </div>
+               <div class="col-md-9">
+                  <p class="about-p" style="text-align: justify">
                      The project was presented as a multi-sensory installation featuring mirror-foil artist books and square folding zines, resin-cast objects that freeze digital moments in physical form, looping short videos designed around the 6-second attention span, large-format holographic posters that create an immersive visual impact, and interactive elements that blur the line between virtual perception and physical space.
                   </p>
-                  <p class="about-h">Message</p>
-                  <p class="about-p">
-                     Brainless Thinking is both a warning and a mirror. It asks viewers to reconsider their relationship with media, technology, and identity. In a world that rewards speed and sameness, thinking — truly thinking — might be the last radical act.
-                  </p>
+               </div>
+            </div>
+            <div class="row margin-top-45">
+               <div class="col-md-12">
+                  <video controls style="width: 100%;">
+                     <source src="brainless/5.mp4?v=123456" type="video/mp4">
+                  </video>
                </div>
             </div>
          </div>
@@ -75,5 +201,35 @@
       <script src="../js/bootstrap.min.js"></script>
       <script src="../js/modernizr.js"></script>
       <script src="../js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+      const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+         document.querySelectorAll('.swiper-slide img').forEach(img => {
+           img.addEventListener('click', e => {
+             const lb = document.getElementById('lightbox');
+             const lbImg = document.getElementById('lightbox-img');
+             lbImg.src = e.currentTarget.src;
+             lb.style.display = 'flex';
+           });
+         });
+         
+         function closeLightbox() {
+           document.getElementById('lightbox').style.display = 'none';
+         }
+      </script>
    </body>
 </html>

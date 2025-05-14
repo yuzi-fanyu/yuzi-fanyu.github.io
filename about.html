@@ -224,7 +224,6 @@
       });
       </script>
       <script>
-         // 2. 给每张轮播图绑定点击事件
          document.querySelectorAll('.swiper-slide img').forEach(img => {
            img.addEventListener('click', e => {
              const lb = document.getElementById('lightbox');
@@ -234,10 +233,9 @@
            });
          });
          
-         // 3. 关闭 lightbox
          function closeLightbox() {
            document.getElementById('lightbox').style.display = 'none';
          }
-         </script>
+      </script>
    </body>
 </html>
