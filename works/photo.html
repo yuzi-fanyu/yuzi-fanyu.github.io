@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Yuzi Space</title>
+      <!-- Css -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="about-h1" style="font-weight: 500; text-decoration: underline; letter-spacing: 0.07px;">
+                     202X Protrait Series
+                  </p>
+               </div>
+            </div>
+            <br>
+            <div class="row margin-top-45" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/CFFH0499.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Peiqi</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel1/1.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/2.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/3.JPG" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/4.JPG" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/5.JPG" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/6.JPG" alt="6" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/7.JPG" alt="7" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/1.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/2.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/3.JPG" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/4.JPG" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/5.JPG" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/6.JPG" alt="6" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel1/7.JPG" alt="7" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+               <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged image">
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8035.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8043.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Shumei</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel2/1.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/2.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/3.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/4.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/5.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/6.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/7.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/1.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/2.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/3.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/4.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/5.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/6.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel2/7.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8046.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8051.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Pengpeng</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel3/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel3/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8057.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel4/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/7.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel4/7.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8063.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/DSC_4872.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Yiyang</p>
+               </div>
+            </div>
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/DSC_4875.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/DSC_4805.JPG">
+               </div>
+            </div>
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8067.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/DSC_4943.JPG">
+               </div>
+            </div>
+
+            <div class="row margin-top-25" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/09E73DDFB18E1A774085ADEB970421DB.png">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Xinyi</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel5/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel5/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_9164(20210530-205034).JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel6/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel6/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8078.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel7/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel7/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8083.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Cyan</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel8/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel8/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_8088.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;"></p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel9/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel9/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-20" style="display: flex; align-items: stretch;">
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: flex-end;">
+                  <img class="img-responsive margin-top-00" style="width: 80%;" src="photo/IMG_3234.JPG">
+               </div>
+               <div class="col-md-6" style="display: flex; align-items: center; justify-content: center;">
+                  <p style="margin: 0;">Yani</p>
+               </div>
+            </div>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="photo/carousel10/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/1.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/2.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/3.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/4.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="photo/carousel10/5.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+
+
+
+
+         </div>
+      </section>
+      <!-- script -->
+      <script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/modernizr.js"></script>
+      <script src="../js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+      const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+         document.querySelectorAll('.swiper-slide img').forEach(img => {
+           img.addEventListener('click', e => {
+             const lb = document.getElementById('lightbox');
+             const lbImg = document.getElementById('lightbox-img');
+             lbImg.src = e.currentTarget.src;
+             lb.style.display = 'flex';
+           });
+         });
+         
+         function closeLightbox() {
+           document.getElementById('lightbox').style.display = 'none';
+         }
+      </script>
+   </body>
+</html>

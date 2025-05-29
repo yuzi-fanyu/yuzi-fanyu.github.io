@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Yuzi Space</title>
+      <!-- Css -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="about-h1" style="font-weight: 500; text-decoration: underline; letter-spacing: 0.07px;">
+                     BOCAKE
+                  </p>
+               </div>
+            </div>
+            <br>
+            <div class="row margin-top-20">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-45" src="bocake/1.jpeg">
+               </div>
+            </div>
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     BOCAKE is a concept IP series inspired by the traditional Chinese game "Bo Bing".<br>
+                     The series includes six characters — Zhuangyuan, Bangyan, Tanhua, Jinshi, Juren, and Xiucai — based on ancient scholar titles.<br>
+                     Each design uses 3D modeling to bring these figures to life with a fun and modern twist.<br>
+                     Blending tradition with bold style, the visuals feature a vibrant and colorful black aesthetic.
+                  </p>
+               </div>
+            </div>
+            <div class="row margin-top-15">
+               <div class="col-md-4" style="padding-left: 15px; padding-right: 1.6666px">
+                  <img class="img-responsive margin-top-45" src="bocake/11.jpg">
+               </div>
+               <div class="col-md-4" style="padding-left: 8.3333px; padding-right: 8.3333px">
+                  <img class="img-responsive margin-top-45" src="bocake/12.jpg">
+               </div>
+               <div class="col-md-4" style="padding-left: 1.6666px; padding-right: 15px">
+                  <img class="img-responsive margin-top-45" src="bocake/13.jpg">
+               </div>
+            </div>
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     The Mid-Autumn Bo Bing tradition began in Xiamen and spread across southern Fujian over the centuries.<br>
+                     It was created by Zheng Chenggong to comfort his troops during the festival while stationed on Gulangyu Island.<br>
+                     With the moon overhead, friends and family gather around the table, rolling dice and winning scholar titles.<br>
+                     In laughter and play, people celebrate reunion, luck, and the warmth of tradition.
+                  </p>
+               </div>
+            </div>
+            <div class="row margin-top-30">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="bocake/carousel1/1.png" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/carousel1/2.png" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/carousel1/3.png" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/carousel1/4.png" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/carousel1/5.png" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/carousel1/6.png" alt="2" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+               <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged image">
+            </div>
+            <div class="row margin-top-30" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     The design drafts begin with hand-drawn sketches and progress into stylized 3D-ready concepts.<br>
+                     Each figure maintains a distinct personality while sharing a unified visual language rooted in historical costume and cultural symbolism.<br>
+                     These drafts lay the foundation for a vibrant, collectible 3D IP series with strong ties to Chinese folklore and festive tradition.
+                  </p>
+               </div>
+            </div>
+            <!--
+            <div class="row margin-top-60">
+               <div class="col-md-4" style="padding-left: 15px; padding-right: 1.6666px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/2.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+               <div class="col-md-4" style="padding-left: 8.3333px; padding-right: 8.3333px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/3.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+               <div class="col-md-4" style="padding-left: 1.6666px; padding-right: 15px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/2.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+            </div>
+            <div class="row margin-top-05">
+               <div class="col-md-4" style="padding-left: 15px; padding-right: 1.6666px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/4.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+               <div class="col-md-4" style="padding-left: 8.3333px; padding-right: 8.3333px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/10.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+               <div class="col-md-4" style="padding-left: 1.6666px; padding-right: 15px">
+                  <video autoplay loop muted playsinline style="width: 100%;">
+                     <source src="bocake/9.mp4?v=12345" type="video/mp4">
+                  </video>
+               </div>
+            </div>
+            -->
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/2.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/3.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/9.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/10.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/4.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/2.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/3.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/9.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/10.mp4?v=12345" type="video/mp4"></video></div>
+                          <div class="swiper-slide"><video autoplay loop muted playsinline style="width: 100%;">                     <source src="bocake/4.mp4?v=12345" type="video/mp4"></video></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     The BOCAKE NFT series sold out immediately upon launch, reflecting overwhelming demand.<br>
+                     Collectors quickly seized the opportunity to own these culturally inspired digital pieces.<br>
+                     Now fully sold out on NFT platforms, the series stands as a rare and valuable collection.
+                  </p>
+               </div>
+            </div>
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="bocake/5.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/6.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/7.JPG" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/8.JPG" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/5.JPG" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/6.JPG" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/7.JPG" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="bocake/8.JPG" alt="4" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- script -->
+      <script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/modernizr.js"></script>
+      <script src="../js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+      const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+         document.querySelectorAll('.swiper-slide img').forEach(img => {
+           img.addEventListener('click', e => {
+             const lb = document.getElementById('lightbox');
+             const lbImg = document.getElementById('lightbox-img');
+             lbImg.src = e.currentTarget.src;
+             lb.style.display = 'flex';
+           });
+         });
+         
+         function closeLightbox() {
+           document.getElementById('lightbox').style.display = 'none';
+         }
+      </script>
+      <script>
+      const swiper2 = new Swiper('.swiper-container2', {
+      slidesPerView: 1,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+         delay: 2000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+   </body>
+</html>

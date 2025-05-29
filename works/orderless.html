@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Yuzi Space</title>
+      <!-- Css -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="about-h1" style="font-weight: 500; text-decoration: underline; letter-spacing: 0.07px;">
+                     ORDERLESS
+                  </p>
+               </div>
+            </div>
+            <br>
+            
+
+            
+         </div>
+      </section>
+      <!-- script -->
+      <script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/modernizr.js"></script>
+      <script src="../js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+      const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper2 = new Swiper('.swiper-container2', {
+      slidesPerView: 3,
+      spaceBetween: 20,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper7 = new Swiper('.swiper-container7', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper8 = new Swiper('.swiper-container8', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+         delay: 2000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+         document.querySelectorAll('.swiper-slide img').forEach(img => {
+           img.addEventListener('click', e => {
+             const lb = document.getElementById('lightbox');
+             const lbImg = document.getElementById('lightbox-img');
+             lbImg.src = e.currentTarget.src;
+             lb.style.display = 'flex';
+           });
+         });
+         
+         function closeLightbox() {
+           document.getElementById('lightbox').style.display = 'none';
+         }
+      </script>
+      <script>
+        const video = document.getElementById('zaner');
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              video.play();
+            } else {
+              video.pause(); // 离开可视区时暂停，可选
+            }
+          });
+        }, {
+          threshold: 0.9 // 元素可见 60% 时触发播放
+        });
+     
+        observer.observe(video);
+      </script>
+   </body>
+</html>
