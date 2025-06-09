@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <title>Yuzi Space</title>
+      <!-- Css -->
+      <link href="../css/bootstrap.css" rel="stylesheet">
+      <link href="../css/style.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+   </head>
+   <body>
+      <nav class="navbar navbar-default color-fill navbar-fixed-top">
+         <div class="col-md-12">
+            <div class="nav">
+               <button class="btn-nav">
+               <span class="icon-bar top"></span>
+               <span class="icon-bar middle"></span>
+               <span class="icon-bar bottom"></span>
+               </button>
+            </div>
+            <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/logo.png" alt="logo">
+            </a>
+            <div class="nav-content hideNav hidden">
+               <ul class="nav-list vcenter">
+                  <li class="nav-item"><a class="item-anchor" href="../index.html">Home</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../about.html">About Me</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../portfolio.html">Portfolio</a></li>
+                  <li class="nav-item"><a class="item-anchor" href="../contact.html">Contact</a></li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section id="about">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <p class="about-h1" style="font-weight: 500; text-decoration: underline; letter-spacing: 0.07px;">
+                     TEAM PROJECTS
+                  </p>
+               </div>
+            </div>
+            <br>
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-00" src="team/1.jpg">
+               </div>
+            </div>
+            <div class="row margin-top-40" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     <i>The visual design for the 40th anniversary celebration of the School of Design & Arts at Beijing Institute of Technology</i>
+                  </p>
+               </div>
+            </div>
+            
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-00" src="team/2.jpg">
+               </div>
+            </div>
+
+            <div class="row margin-top-35">
+               <div class="col-md-6" style="padding-left: 15px; padding-right: 5px">
+                  <img class="img-responsive margin-top-00" src="team/3.jpg">
+               </div>
+               <div class="col-md-6" style="padding-left: 5px; padding-right: 15px">
+                  <img class="img-responsive margin-top-00" src="team/4.jpg">
+               </div>
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     Sincere thanks to <a class="prof" href="https://design.bit.edu.cn/sz2/szdw/sjzdsjx/b133638.htm">Associate Professor Zhang Honghai</a> and <a class="prof" href="https://design.bit.edu.cn/sz2/szdw/b171300.htm">Associate Professor Dong Hongyu</a> for leading the project.
+                  </p>
+               </div>
+            </div>
+
+            <div class="row margin-top-50">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="team/5.png" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/6.png" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/7.png" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/8.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/9.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/5.png" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/6.png" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/7.png" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/8.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/9.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+               <img id="lightbox-img" class="lightbox-img" src="" alt="Enlarged image">
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     On-site Photos
+                  </p>
+               </div>
+            </div>
+
+
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <img class="img-responsive margin-top-00" src="team/10.JPG">
+               </div>
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     <i>Yu Chenglong Integrity-Themed Calendar Design</i>
+                  </p>
+               </div>
+            </div>
+
+            <div class="row margin-top-60">
+               <div class="col-md-4" style="padding-left: 15px; padding-right: 1.666px">
+                  <img class="img-responsive margin-top-00" src="team/13.jpg">
+               </div>
+               <div class="col-md-4" style="padding-left: 8.333px; padding-right: 8.333px">
+                  <img class="img-responsive margin-top-00" src="team/12.jpg">
+               </div>
+               <div class="col-md-4" style="padding-left: 1.666px; padding-right: 15px">
+                  <img class="img-responsive margin-top-00" src="team/11.jpg">
+               </div>
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     The illustration section was designed by my collaborator, Zhang Jiaxin.
+                  </p>
+               </div>
+            </div>
+
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container2">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="team/carousel1/0.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/1.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/2.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/3.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/4.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/6.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/7.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/8.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/9.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/10.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/11.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel1/12.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     This calendar is inspired by the family teachings of Yu Chenglong and his legacy of integrity.<br>
+                     Each month features a traditional virtue shown through guochao-style illustrations.<br>
+                     The design blends cultural storytelling with elements of Yu Chenglong's former residence.<br>
+                  </p>
+               </div>
+            </div>
+
+            <div class="row margin-top-60">
+               <div class="col-md-12">
+                  <div style="overflow-x: hidden;">
+                     <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide"><img src="team/carousel2/1.jpg" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/2.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/3.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/4.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/5.jpg" alt="1" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/6.png" alt="2" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/7.jpg" alt="3" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/8.jpg" alt="4" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/9.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                          <div class="swiper-slide"><img src="team/carousel2/10.jpg" alt="5" onclick="openPreview(this.src)"></div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="row margin-top-60" style="margin: 80">
+               <div class="col-md-12">
+                  <p class="about-p" style="text-align: center; width: 80%; margin: 0 auto;">
+                     Sincere thanks to <a class="prof" href="https://design.bit.edu.cn/sz2/szdw/b171300.htm">Associate Professor Dong Hongyu</a> for her invaluable guidance on the project.
+                  </p>
+               </div>
+            </div>
+
+
+            
+            
+
+            
+         </div>
+      </section>
+      <!-- script -->
+      <script src="../js/jquery.js"></script>
+      <script src="../js/bootstrap.min.js"></script>
+      <script src="../js/modernizr.js"></script>
+      <script src="../js/script.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script>
+      const swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper2 = new Swiper('.swiper-container2', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 2000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper7 = new Swiper('.swiper-container7', {
+      slidesPerView: 4,
+      spaceBetween: 10,
+      loop: true,
+      autoplay: {
+         delay: 3000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+      const swiper8 = new Swiper('.swiper-container8', {
+      slidesPerView: 1,
+      spaceBetween: 0,
+      loop: true,
+      autoplay: {
+         delay: 2000,
+         disableOnInteraction: false
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
+      },
+      });
+      </script>
+      <script>
+         document.querySelectorAll('.swiper-slide img').forEach(img => {
+           img.addEventListener('click', e => {
+             const lb = document.getElementById('lightbox');
+             const lbImg = document.getElementById('lightbox-img');
+             lbImg.src = e.currentTarget.src;
+             lb.style.display = 'flex';
+           });
+         });
+         
+         function closeLightbox() {
+           document.getElementById('lightbox').style.display = 'none';
+         }
+      </script>
+      <script>
+        const video = document.getElementById('zaner');
+
+        const observer = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              video.play();
+            } else {
+              video.pause(); // 离开可视区时暂停，可选
+            }
+          });
+        }, {
+          threshold: 0.9 // 元素可见 60% 时触发播放
+        });
+     
+        observer.observe(video);
+      </script>
+   </body>
+</html>

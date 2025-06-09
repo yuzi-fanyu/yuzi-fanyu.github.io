@@ -76,6 +76,9 @@
     cursor: pointer;
     user-select: none;
   }
+.prof {
+    text-decoration: underline;
+}
 
 
 /*---------- Global Style ----------*/
