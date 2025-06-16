@@ -79,6 +79,15 @@
 .prof {
     text-decoration: underline;
 }
+.prof:visited {
+    text-decoration: underline;
+}
+.prof:hover {
+    text-decoration: underline;
+}
+.prof:focus {
+    text-decoration: underline;
+}
 
 
 /*---------- Global Style ----------*/
