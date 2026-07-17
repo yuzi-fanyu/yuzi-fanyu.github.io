@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:\\Users\\31032\\Desktop\\yuzi-fanyu.github.io\\index.html",
+            "url": "C:\\Users\\31032\\Desktop\\1\\yuzi个人网页\\yuzi-fanyu.github.io\\index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]
